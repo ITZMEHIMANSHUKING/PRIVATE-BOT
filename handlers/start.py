@@ -27,7 +27,7 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚡Add To Your Group⚡️", url="https://t.me/@Maria_vcbot?startgroup=true"
+                        "⚡Add To Your Group⚡️", url="https://t.me/Maria_vcbot?startgroup=true"
                     )
                 ]
             ]
