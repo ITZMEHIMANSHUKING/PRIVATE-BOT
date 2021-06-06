@@ -460,7 +460,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("🎵 **Processing Via @maria_support**")
+    await lel.edit("🎵 **Processing Via ꗄ➺ ᴍ𝐚я𝖎𝐚 ✘**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -491,7 +491,7 @@ async def play(_, message: Message):
                 [
                    InlineKeyboardButton(
                        text="⭐ Support ⭐",
-                       url='https://t.me/W2HSupport')
+                       url='https://t.me/maria_support')
                 ],
                 [       
                     InlineKeyboardButton(

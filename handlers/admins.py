@@ -62,7 +62,7 @@ async def resume(_, message: Message):
 @authorized_users_only
 async def stop(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
-        await message.reply_text("✯W2HMusic✯=❗ Nothing is streaming!")
+        await message.reply_text("ꗄ➺ ᴍ𝐚я𝖎𝐚 ✘=❗ Nothing is streaming!")
     else:
         try:
             callsmusic.queues.clear(message.chat.id)
